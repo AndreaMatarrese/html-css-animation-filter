@@ -28,3 +28,27 @@
 .ex-3-square:hover{
     border-radius: 10rem;
 }
+
+/* quadrato 4 */
+.ex-4-square{
+    transition: 3s;
+}
+
+.ex-4-square:hover{
+   opacity: 0;
+}
+
+/* quadrato 5*/
+.ex-5-square{
+    transition: 2s;
+}
+
+.ex-5-square:hover{
+   width: 100px;
+   height: 100px;
+}
+
+.ex-5-square:active{
+    width: 40px;
+    height: 40px;
+ }
