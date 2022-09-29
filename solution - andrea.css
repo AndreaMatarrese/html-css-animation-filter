@@ -101,3 +101,23 @@
         transform: rotate3d(0, 0, 1, 360deg);
     }
  }
+
+ /* esercizio 11 */
+ .ex-11-icon:hover{
+    animation: caricamento  2s;
+    
+ }
+
+ @keyframes caricamento {
+  0% {
+        transform: rotate3d(0, 0, 1 0deg);
+    }
+
+
+    75%{
+        transform: rotate3d(0, 0, 1, 270deg);
+    }
+ }
+
+
+ /* esercizio 12 */
