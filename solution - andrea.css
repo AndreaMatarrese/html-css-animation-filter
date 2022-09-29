@@ -1,0 +1,30 @@
+/* quadrato 1 */
+.ex-1-square{
+    background-color: none;
+    transition: 3s;
+
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+
+
+/* quadrato 2 */
+.ex-2-square{
+    transition: 3s;
+}
+
+.ex-2-square:hover{
+    width: 900px;
+}
+
+
+/* quadrato 3 */
+.ex-3-square{
+    transition: 3s;
+}
+
+.ex-3-square:hover{
+    border-radius: 10rem;
+}
