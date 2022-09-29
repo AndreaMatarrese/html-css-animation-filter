@@ -1,4 +1,4 @@
-/* quadrato 1 */
+/* esercizio 1 */
 .ex-1-square{
     background-color: none;
     transition: 3s;
@@ -10,7 +10,7 @@
 }
 
 
-/* quadrato 2 */
+/* esercizio 2 */
 .ex-2-square{
     transition: 3s;
 }
@@ -20,7 +20,7 @@
 }
 
 
-/* quadrato 3 */
+/* esercizio 3 */
 .ex-3-square{
     transition: 3s;
 }
@@ -29,7 +29,7 @@
     border-radius: 10rem;
 }
 
-/* quadrato 4 */
+/* esercizio 4 */
 .ex-4-square{
     transition: 3s;
 }
@@ -38,7 +38,7 @@
    opacity: 0;
 }
 
-/* quadrato 5*/
+/* esercizio 5*/
 .ex-5-square{
     transition: 2s;
 }
@@ -51,4 +51,27 @@
 .ex-5-square:active{
     width: 40px;
     height: 40px;
+ }
+
+ /* esercizio 6 */
+ .ex-6-img:hover{
+    filter: grayscale(100%);
+ }
+
+ /* esercizio 7 */
+  .ex-7-img{
+    transition: 1s;
+ }
+ .ex-7-img:hover{
+    filter: grayscale(100%);
+ }
+
+
+  /* esercizio 8 */
+  .ex-8-img{
+    transition: 1s;
+ }
+ .ex-8-img:hover{
+    filter: sepia(100%);
+    border-radius: 4em;
  }
