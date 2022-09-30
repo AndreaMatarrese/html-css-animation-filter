@@ -121,3 +121,30 @@
 
 
  /* esercizio 12 */
+ .ex-12-top-white{
+    animation: sopra forwards 2s;
+ }
+ @keyframes sopra {
+    0%{
+        transform: translateX(0rem);
+    }
+    100% {
+        transform: translateX(10rem);
+        
+    }
+     
+    
+ }
+ .ex-12-bottom-white{
+    animation: sotto forwards 2s;
+ }
+ @keyframes sotto {
+    0%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-8rem);
+       
+ }
+
+}
